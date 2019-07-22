@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suspense-list-together-demo/static/css/main.55e5a283.chunk.css",
+    "main.js": "/suspense-list-together-demo/static/js/main.1a50dc55.chunk.js",
+    "main.js.map": "/suspense-list-together-demo/static/js/main.1a50dc55.chunk.js.map",
+    "runtime~main.js": "/suspense-list-together-demo/static/js/runtime~main.86e35df0.js",
+    "runtime~main.js.map": "/suspense-list-together-demo/static/js/runtime~main.86e35df0.js.map",
+    "index.html": "/suspense-list-together-demo/index.html",
+    "precache-manifest.9a62cae7793a3f89f69bafe894f4355b.js": "/suspense-list-together-demo/precache-manifest.9a62cae7793a3f89f69bafe894f4355b.js",
+    "service-worker.js": "/suspense-list-together-demo/service-worker.js",
+    "static/css/main.55e5a283.chunk.css.map": "/suspense-list-together-demo/static/css/main.55e5a283.chunk.css.map"
+  }
+}
