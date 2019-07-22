@@ -23,7 +23,7 @@ const FetchAndShowUser = ({ userId }) => {
 
 const UserList = ({ useSuspenseList }) => {
   const fetchingUsers = families.slice(0, 6).map(user => (
-    <React.Suspense fallback={<div />}>
+    <React.Suspense key={user.id} fallback={<div />}>
       <FetchAndShowUser userId={user.id} />
     </React.Suspense>
   ));
