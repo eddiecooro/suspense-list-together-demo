@@ -1,6 +1,7 @@
 import React from 'react';
 import families from '../../families.json';
 import UserSelfCard from '../UserCard/index.js';
+import styles from '../UserCard/UserSelfCard.module.scss';
 
 const fakeCache = {};
 const promises = {};
@@ -23,7 +24,9 @@ const FetchAndShowUser = ({ userId }) => {
 
 const UserList = ({ useSuspenseList }) => {
   const fetchingUsers = families.slice(0, 8).map(user => (
-    <React.Suspense key={user.id} fallback={<div />}>
+    <React.Suspense
+      key={user.id}
+      fallback={<div className={styles.card}>Loading...</div>}>
       <FetchAndShowUser userId={user.id} />
     </React.Suspense>
   ));
