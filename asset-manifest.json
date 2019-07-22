@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/suspense-list-together-demo/static/css/main.55e5a283.chunk.css",
-    "main.js": "/suspense-list-together-demo/static/js/main.4f695ca6.chunk.js",
-    "main.js.map": "/suspense-list-together-demo/static/js/main.4f695ca6.chunk.js.map",
+    "main.js": "/suspense-list-together-demo/static/js/main.1a518ab0.chunk.js",
+    "main.js.map": "/suspense-list-together-demo/static/js/main.1a518ab0.chunk.js.map",
     "runtime~main.js": "/suspense-list-together-demo/static/js/runtime~main.86e35df0.js",
     "runtime~main.js.map": "/suspense-list-together-demo/static/js/runtime~main.86e35df0.js.map",
     "index.html": "/suspense-list-together-demo/index.html",
-    "precache-manifest.b2dffaa04437efd51fe622d37400a47c.js": "/suspense-list-together-demo/precache-manifest.b2dffaa04437efd51fe622d37400a47c.js",
+    "precache-manifest.43c084a757a0295a2ff24f57c6ad80e6.js": "/suspense-list-together-demo/precache-manifest.43c084a757a0295a2ff24f57c6ad80e6.js",
     "service-worker.js": "/suspense-list-together-demo/service-worker.js",
     "static/css/main.55e5a283.chunk.css.map": "/suspense-list-together-demo/static/css/main.55e5a283.chunk.css.map"
   }
