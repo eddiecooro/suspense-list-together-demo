@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## DEMO
+visit https://Eddie-CooRo.github.io/suspense-list-together-demo
+
+## Docs
+Read this [dev.to]() article for more details
+
 ## Available Scripts
 
 In the project directory, you can run:
