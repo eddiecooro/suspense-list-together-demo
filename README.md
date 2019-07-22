@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 visit https://Eddie-CooRo.github.io/suspense-list-together-demo
 
 ## Docs
-Read this [dev.to]() article for more details
+Read this [dev.to](https://dev.to/eddiecooro/what-react-team-is-working-on-part-one-suspenselist-component-1k9b) article for more details
 
 ## Available Scripts
 
