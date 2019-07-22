@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.scss';
+import UserList from './components/UserList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.page}>
+      <div className={styles.container}>
+        <div>
+          <p>{'With'}</p>
+          <p>{'<SuspenseList revealMode="together"/>'}</p>
+          <br />
+          <UserList useSuspenseList={true} />
+        </div>
+        <div>
+          <p>{'Without'}</p>
+          <p>{'<SuspenseList />'}</p>
+          <br />
+          <UserList />
+        </div>
+      </div>
     </div>
   );
 }
