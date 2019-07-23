@@ -8,7 +8,7 @@ function App() {
       <div className={styles.container}>
         <div>
           <p>{'With'}</p>
-          <p>{'<SuspenseList revealMode="together"/>'}</p>
+          <p>{'<SuspenseList revealOrder="together"/>'}</p>
           <br />
           <UserList useSuspenseList={true} />
         </div>
