@@ -16,7 +16,7 @@ const FetchAndShowUser = ({ userId }) => {
         const user = families.find(user => user.id === userId);
         fakeCache[userId] = user;
         resolve(user);
-      }, Math.random() * 2500);
+      }, Math.random() * 5000);
     });
   }
   throw promises[userId];
